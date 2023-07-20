@@ -1,0 +1,11 @@
+{
+  "items": [
+    {
+      "name": "David",
+      "price": "200",
+      "type": "person",
+      "brand": "computing",
+      "id": 1
+    }
+  ]
+}

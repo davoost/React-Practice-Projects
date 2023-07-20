@@ -1,0 +1,13 @@
+
+
+.screen{
+    height: 600px;
+    width: 800px;
+}
+
+.square{
+    position: absolute;
+    width:10px;
+    height:10px;
+    background: black;
+}

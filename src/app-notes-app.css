@@ -1,0 +1,108 @@
+*{
+    box-sizing: border-box;
+}
+
+main{
+    margin:36px;
+}
+
+.header{
+    background: linear-gradient(90deg, #672280 1.18%, #A626D3 100%);
+    height:65px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items:center;
+    padding: 10px;
+}
+
+.headerImg{
+    width:31px;
+    max-height: 100%;
+    margin-right: 6px;
+}
+
+.headerTitle{
+    font-family: 'Karla';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20.7482px;
+    line-height: 24px;
+    letter-spacing: -0.1em;
+    color: #FFFFFF;
+    margin-right: auto;
+}
+
+.headerText{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 15px;
+    color: #FFFFFF;
+}
+
+.memeBody{
+    margin:36px;
+    align-items: center;
+}
+
+.form{
+    display:grid;
+    grid-template: 40px 40px / 1fr 1fr;
+    gap: 17px;
+}
+
+.form--inputs{
+    font-family: "karla", sans-serif;
+    border-radius: 5px;
+    border: 1px solid #D5D4D8;
+    text-indent: 5px;
+}
+
+.memebody--button{
+    grid-column: 1 / -1;
+    height: 40px;
+    background: linear-gradient(90deg, #672280 1.18%, #A626D3 100%);
+    font-family: 'Karla';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    /* identical to box height */
+    text-align: center;
+    letter-spacing: -0.1em;
+    color: #FFFFFF;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.meme{
+    position: relative;
+}
+
+.meme--image{
+    margin-top: 10px;
+    width: 600px;
+    height: 400px;
+}
+
+.meme--topText{
+    position:absolute;
+    color: white;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-shadow: 2px 2px black;
+    top: 25px;
+    left: 300px;
+    font-size: 50px;
+}
+
+.meme--bottomText{
+    position:absolute;
+    color: white;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-shadow: -2px -2px 3px black;
+    top: 300px;
+    left: 300px;
+    font-size: 50px;
+}

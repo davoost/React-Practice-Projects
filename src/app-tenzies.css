@@ -1,0 +1,72 @@
+*{
+    box-sizing: border-box;
+    font-family: 'karla';
+}
+
+body{
+    margin: 0;
+}
+
+.tenzies{
+    padding:20px;
+    width: 440px;
+    height: 440px;
+    background: #0B2434;
+}
+
+.tenzies--board{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-items: center;
+    width: 400px;
+    height: 400px;
+    left: 20px;
+    top: 30px;
+    background: #F5F5F5;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.tenzies--instructions{
+    align-items:center;
+    justify-content: center;
+}
+
+.tenzies--dice{
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.15);
+    border-radius: 10px;
+    height: 50px;
+    width: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.tenzies--diceContainer{
+    display:grid;
+    grid-template: auto auto / repeat(5, 1fr);
+    gap:20px;
+}
+
+.tenzies--button{
+    background: #5035FF;
+    box-shadow: 0px 3.2px 7.68px rgba(0, 0, 0, 0.18);
+    border-radius: 4px;
+    border: none;
+    height: 36px;
+    width: 150px;
+    color: white;
+    font-size: 1.2rm;
+    margin: 25px;
+    cursor: pointer;
+}
+
+.tenzies--button:focus{
+    outline: none;
+}
+.tenzies--button:active{
+    box-shadow: inset 5px 5px 10px -3px rgba(0, 0, 0, 0.7)
+}

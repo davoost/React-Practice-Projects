@@ -1,0 +1,45 @@
+*{box-sizing: border-box;}
+
+.container{
+    width: 320px;
+    align-items: center;
+    background-color: purple;
+    padding:10px;
+    border-radius: 5px;
+}
+
+.userForm{
+    padding:50px;
+    width: 300px;
+    display: grid;
+    background-color: white;
+    border-radius: 5px;
+}
+
+form{
+    width:180px;
+}
+
+.userForm--textinput{
+    width:180px;
+    height: 30px;
+    border-radius: 5px;
+    margin: 5px;
+}
+
+.userForm--checkbox{
+    margin-top:20px;
+}
+
+.userForm--button{
+    margin:30px;
+    background-color: purple;
+    color: white;
+    border-radius: 5px;
+    width: 150px;
+    height:30px;
+}
+
+input{
+    margin: 2px
+}

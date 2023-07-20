@@ -1,0 +1,198 @@
+*{
+  box-sizing: border-box;
+}
+
+body{
+  margin:0;
+  max-width:550px;
+  font-family: 'Inter';
+  font-style: normal;
+}
+/* light dark modes */
+.darknav{
+  background-color: #21222A;
+}
+
+.lightnav{
+  background-color: #FFFFFF;
+}
+
+.darkmaincontent-container{
+  background-color:
+  #282D35;
+}
+.lightmaincontent-container{
+  background-color: #FFFFFF;
+}
+
+.darklist-stuff > li{
+  color: #FFFFFF;
+}
+.lightlist-stuff > li{
+  color: #2B283A;
+}
+
+.darktitle{
+  color: #FFFFFF;
+}
+.lighttitle{
+  color:#2B283A;
+}
+
+.lightlight-switch{color: 
+  #2B283A;}
+.darklight-switch{color: 
+  #918E9B}
+.lightdark-switch{color: 
+  #D5D4D8}
+.darkdark-switch{color: 
+  #FFFFFF}
+
+.nav{
+  width:550px;
+  height: 91px;
+  padding-top: 31px;
+  padding-left: 27px;
+  margin-bottom: 3px;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  padding:30px 25px;
+  box-shadow: 1px 5px 3px rgba(0, 0, 0, 0.1);
+}
+
+.logo{
+  width: 28px;
+  height: 25px;
+}
+
+.nav > h3{
+  margin: 0;
+  margin-right: auto;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 27px;
+  letter-spacing: -0.05em;
+  color: #61DAFB;
+}
+
+.nav > h4{
+  margin: 0;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: right;
+  color: #DEEBF8;
+}
+
+.maincontent-container{
+  padding: 57px 27px;
+  width: 550px;
+  height: 459px;
+  top: 91px;
+  background-image: url(./images/react-logo-grey.png);
+  background-repeat: no-repeat;
+  background-position-x: 420px;
+  background-position-y: 75%;
+  box-shadow: 1px 5px 3px rgba(0, 0, 0, 0.1);
+}
+
+
+.title{
+  margin: 0;
+  font-weight: 700;
+  font-size: 39px;
+  line-height: 47px;
+  letter-spacing: -0.05em;
+  margin-left: 27px;
+}
+
+.list-stuff > li{
+  font-family: 'Inter';
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  padding-block: 10px;
+  max-width: 400px;
+}
+
+.list-stuff > li::marker{
+  font-size: 1.4rem;
+  color:#61DAFB; 
+}
+
+.list-stuff{
+  margin-top: 46px;
+}
+
+/* The switch - the box around the slider */
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 40px;
+  height: 20px;
+}
+
+/* Hide default HTML checkbox */
+.switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+/* The slider */
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: 
+  #2B283A;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 16px;
+  width: 16px;
+  left: 2px;
+  bottom: 2px;
+   /* this chages color*/
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+.slider-light:before{
+  background-color: white;
+}
+.slider-dark:before{
+  background-color: 
+  #222222;
+}
+
+input:checked + .slider {
+  background-color: #F5F5F5;
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 1px #F5F5F5;
+}
+
+input:checked + .slider:before {
+  -webkit-transform: translateX(20px);
+  -ms-transform: translateX(20px);
+  transform: translateX(20px);
+}
+
+/* Rounded sliders */
+.slider.round {
+  border-radius: 34px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+}
